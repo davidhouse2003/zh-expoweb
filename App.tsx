@@ -1,3 +1,4 @@
+import '@expo/browser-polyfill';
 import { StatusBar } from 'expo-status-bar';
 import React, {useEffect} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
@@ -9,7 +10,7 @@ export default function App() {
 }, []);
   return (
     <View style={styles.container}>
-      <Text>00 zh-expoweb</Text>
+      <Text>02 zh-expoweb</Text>
       <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
